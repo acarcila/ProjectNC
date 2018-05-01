@@ -5,13 +5,17 @@ using UnityEngine;
 public class UnidadAtaque : MonoBehaviour {
 
 	public UnidadStats objetivo;
-	private UnidadStats stats;
+	public bool atacar;
+	public Transform personaje;
 
+	private UnidadStats stats;
 	private int frameCount = 0;
 	private int frameMax = 60;
 
+
 	// Use this for initialization
 	void Start () {
+		atacar = false;
 		stats = this.GetComponent<UnidadStats>();
 	}
 	
@@ -26,7 +30,7 @@ public class UnidadAtaque : MonoBehaviour {
 
 		frameCount++;
 
-		if(frameCount > frameMax)
+		if(frameCount > frameMax && atacar)
 		{
 			objetivo.vida -= Mathf.RoundToInt(daño * mulitplicador);
 			frameCount = 0;
@@ -70,9 +74,5 @@ public class UnidadAtaque : MonoBehaviour {
 			break;
 		}
 		return multiplicador;
-	}
-
-	public void muerte(){
-	
 	}
 }

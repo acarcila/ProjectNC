@@ -9,6 +9,7 @@ public class UnidadStats : MonoBehaviour {
 	public int daño;
 	public int movimiento;
 	public int rango;
+	public string unidadEnemiga;
 
 	// Use this for initialization
 	void Start () {
@@ -24,7 +25,7 @@ public class UnidadStats : MonoBehaviour {
 	}
 
 	public void muerte(){
-		Destroy (this.gameObject);
-	
+		this.gameObject.SetActive(false);
+		Destroy (this.gameObject, 5);
 	}
 }

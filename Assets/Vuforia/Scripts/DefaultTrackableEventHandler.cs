@@ -20,20 +20,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PRIVATE_MEMBER_VARIABLES
 
-	//Region editada
-	#region PUBLIC_MEMBER_VARIABLES
-
-	public bool activo;
-
-	#endregion // PUBLIC_MEMBER_VARIABLES
-
     #region UNTIY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
     {
-		//Editado
-		activo = false;
-
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
@@ -79,9 +69,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingFound()
     {
-		//Editado
-		activo = true;
-
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
@@ -102,9 +89,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingLost()
     {
-		//Editado
-		activo = false;
-
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
