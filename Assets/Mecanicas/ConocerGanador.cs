@@ -14,7 +14,7 @@ public class ConocerGanador : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		main = GameObject.Find("Main Camera").GetComponent<Main>();
+		main = GameObject.Find("Main").GetComponent<Main>();
 		bandera = false;
 	}
 	
