@@ -16,8 +16,8 @@ MonoBehaviour:
     ufoLicenseKey: QWMyWmJ2Ly8vLy8vQUFBQ0tQZVZ1WkJpazA2L25lOHpBbEJmVGt0UW16TG5tTjlxbnBFWE16T09MeFN1Yi8zbGRDS0Q1UVE4di9YMUU2MlZqNmtKc2t3a0doVXNEK3A5YUREem5LN2JMQTMxdzlwcGJIQnVZWmtHWjFsY1dZQkdHcXpqVEJEbWllcVhscWUvVUtlUU1Hb2JReGhrRVFqVlE4WkJmcUpxa0lCbThxQStlSmVJcngvY2pNKzFFOE9ISWtyaUxhMnlyd0FCVUF6bWpMN1FMTjNFNUZWL29NTzdwbVZWOXpxSHk4L3FMenQ2dGl3TlI4NWQ0NUFoNll1ck0rRlRzUVZXZmhIQVJhN0ZFLy9JVUROTWdVem04bkVFYjU5Y0tRdUtrSGpvanBhVDluRkdWdmZXdlF6a3V2M1BOTnE4ZFY1L2JWT0NBVFE2OFBNbklBamVPbkdoTG4vYUFoeG1MYW9XdWhmeUxUU0I3Wm5uU3BVVm8yN1k=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 6
+    maxSimultaneousObjectTargets: 6
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -27,8 +27,8 @@ MonoBehaviour:
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
-    flipHorizontally: 0
+    deviceNameSetInEditor: Integrated Webcam
+    flipHorizontally: 1
     turnOffWebCam: 0
     renderTextureLayer: 30
