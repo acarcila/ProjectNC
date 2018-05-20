@@ -7,13 +7,13 @@ public class UnidadStats : MonoBehaviour {
 	public char tipo;
 	public int vida;
 	public int daño;
-	public int movimiento;
+	public float movimiento;
 	public int rango;
 	public string unidadEnemiga;
 
 	// Use this for initialization
 	void Start () {
-		
+		movimiento *= 0.015f;
 	}
 	
 	// Update is called once per frame

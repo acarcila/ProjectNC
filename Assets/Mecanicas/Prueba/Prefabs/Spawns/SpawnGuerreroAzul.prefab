@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33361458795423138}
   - component: {fileID: 23390583645601740}
   - component: {fileID: 114002678350866534}
-  - component: {fileID: 65605284252813936}
   m_Layer: 0
   m_Name: SpawnGuerreroAzul
   m_TagString: UnidadAzul
@@ -84,18 +83,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1579459783643892}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65605284252813936
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1579459783643892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10, y: 2, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114002678350866534
 MonoBehaviour:
   m_ObjectHideFlags: 1

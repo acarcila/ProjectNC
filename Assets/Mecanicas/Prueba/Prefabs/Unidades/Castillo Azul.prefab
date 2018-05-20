@@ -629,7 +629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipo: 0
-  vida: 500
+  vida: 2000
   "da\xF1o": 10
   movimiento: 0
   rango: 0
