@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: e6ffe22ca253fad45a4f04e635354136
-timeCreated: 1526158979
+guid: 8e2f35da9494d484c94473693985aa3c
+timeCreated: 1527090524
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Baculo1
+    100000: Baculo
     100002: Cuerpo
     100004: joint1
     100006: l_arm1
@@ -25,7 +25,7 @@ ModelImporter:
     100034: Spine1
     100036: Spine2
     100038: Spine3
-    400000: Baculo1
+    400000: Baculo
     400002: Cuerpo
     400004: joint1
     400006: l_arm1
@@ -45,14 +45,16 @@ ModelImporter:
     400034: Spine1
     400036: Spine2
     400038: Spine3
-    2100000: lambert1
+    2100000: Cuerpo1
+    2100002: Baculo1
+    2100004: lambert1
     4300000: Cuerpo
-    4300002: Baculo1
+    4300002: Baculo
     7400000: Idle
     7400002: Walk
     7400004: Attack
     9500000: //RootNode
-    13700000: Baculo1
+    13700000: Baculo
     13700002: Cuerpo
   externalObjects: {}
   materials:
@@ -113,7 +115,7 @@ ModelImporter:
       name: Walk
       takeName: Take 001
       firstFrame: 100
-      lastFrame: 148
+      lastFrame: 149
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -148,7 +150,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
