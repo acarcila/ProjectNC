@@ -9,45 +9,45 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1132406750417038}
+  m_RootGameObject: {fileID: 1261682515983608}
   m_IsPrefabParent: 1
---- !u!1 &1132406750417038
+--- !u!1 &1261682515983608
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4329911309866506}
-  - component: {fileID: 33139336523489830}
-  - component: {fileID: 23554059284102848}
-  - component: {fileID: 114170578303775742}
+  - component: {fileID: 4720986847101412}
+  - component: {fileID: 33267466984046632}
+  - component: {fileID: 23999328082692584}
+  - component: {fileID: 114310135105484692}
   m_Layer: 0
-  m_Name: SpawnArqueroRojo
+  m_Name: SpawnMagoAzul
   m_TagString: UnidadRoja
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4329911309866506
+--- !u!4 &4720986847101412
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1132406750417038}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1261682515983608}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0.01, z: 0}
-  m_LocalScale: {x: 0.09536443, y: 0.09536446, z: 0.09536446}
+  m_LocalScale: {x: 0.09372017, y: 0.09372017, z: 0.09372017}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23554059284102848
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!23 &23999328082692584
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1132406750417038}
+  m_GameObject: {fileID: 1261682515983608}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -56,7 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f2cd3ff6eb6715542ab443ada1ef3cb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -76,25 +76,25 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33139336523489830
+--- !u!33 &33267466984046632
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1132406750417038}
+  m_GameObject: {fileID: 1261682515983608}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114170578303775742
+--- !u!114 &114310135105484692
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1132406750417038}
+  m_GameObject: {fileID: 1261682515983608}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 707d702cec624004390dd3b3ab0eb2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unidad: {fileID: 1540328301314474, guid: 01862972c528cbf4b9d8847486d1cab9, type: 2}
+  unidad: {fileID: 1006512327159776, guid: 5563850f2c08d2a4780347f4d3994f49, type: 2}
   cantidadUnidades: 5
   padre: {fileID: 0}
   valorMana: 30
