@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114733336297793820}
   m_Layer: 0
   m_Name: SpawnArqueraAzul
-  m_TagString: UnidadRoja
+  m_TagString: UnidadAzul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

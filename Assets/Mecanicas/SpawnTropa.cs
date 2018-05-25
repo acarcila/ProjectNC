@@ -49,9 +49,9 @@ public class SpawnTropa : MonoBehaviour {
 			for(int i = 0; i < cantidadUnidades; i++)
 			{
 				Vector3 posicionSpawn = this.transform.position;
-				posicionSpawn.x += Random.value * ((10*scaleX) + (10*scaleX)) - (10*scaleX);
+				posicionSpawn.x += Random.value * ((5*scaleX) + (5*scaleX)) - (5*scaleX);
 				posicionSpawn.y = 0f;
-				posicionSpawn.z += Random.value * ((10*scaleZ) + (10*scaleZ)) - (10*scaleZ);
+				posicionSpawn.z += Random.value * ((5*scaleZ) + (5*scaleZ)) - (5*scaleZ);
 				GameObject instancia = (GameObject) Instantiate (unidad, posicionSpawn, this.transform.rotation, padre);
 			}
 
