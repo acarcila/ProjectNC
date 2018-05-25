@@ -44,7 +44,6 @@ public class ColisionRango : MonoBehaviour {
 	}
 
 	void OnTriggerExit(Collider objetivo){
-		Debug.Log (objetivo.gameObject.name);
 		if(objetivo == objetivoActual)
 		{
 			setCastilloAsObjetivo ();
