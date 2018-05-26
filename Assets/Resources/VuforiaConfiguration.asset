@@ -20,7 +20,7 @@ MonoBehaviour:
     maxSimultaneousObjectTargets: 6
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
-    mirrorVideoBackground: 0
+    mirrorVideoBackground: 1
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -71,6 +71,6 @@ MonoBehaviour:
     autoStartTracker: 0
   webcam:
     deviceNameSetInEditor: Integrated Webcam
-    flipHorizontally: 0
+    flipHorizontally: 1
     turnOffWebCam: 0
     renderTextureLayer: 30

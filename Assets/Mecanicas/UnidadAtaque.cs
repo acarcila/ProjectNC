@@ -72,6 +72,9 @@ public class UnidadAtaque : MonoBehaviour {
 				break;
 			}
 			break;
+		default:
+			multiplicador = 1f;
+			break;
 		}
 		return multiplicador;
 	}

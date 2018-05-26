@@ -984,7 +984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipo: 65
-  vida: 50
+  vida: 100
   "da\xF1o": 10
   movimiento: 20
   rango: 8
@@ -1103,6 +1103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meta: {fileID: 0}
   mover: 0
+  banderaRedireccionamiento: 0
 --- !u!114 &114972582315838966
 MonoBehaviour:
   m_ObjectHideFlags: 1

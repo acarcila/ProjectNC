@@ -20,6 +20,7 @@ public class Main : MonoBehaviour {
 	void Update () {
 		if(tiempo.tiempo <= 0 || castilloRojo.vida <= 0 || castilloAzul.vida <= 0){
 			ganador.bandera = true;
+			ganador.ganador = "El ganador es el jugador " + compararVida ();
 			cambiarPantalla();
 		}
 	}
@@ -28,8 +29,7 @@ public class Main : MonoBehaviour {
 		string ganador = "";
 		if(castilloRojo.vida > castilloAzul.vida){
 			 ganador = "Rojo";
-		}
-		if(castilloRojo.vida < castilloAzul.vida){
+		}else if(castilloRojo.vida < castilloAzul.vida){
 			 ganador = "Azul";
 		}
 		return ganador;

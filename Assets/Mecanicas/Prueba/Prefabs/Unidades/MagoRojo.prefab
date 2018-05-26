@@ -657,7 +657,7 @@ Transform:
   m_GameObject: {fileID: 1546882250944172}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0.020300006, z: 0}
-  m_LocalScale: {x: 0.31578198, y: 0.011136448, z: 0.3157824}
+  m_LocalScale: {x: 0.3789384, y: 0.011136448, z: 0.37893888}
   m_Children: []
   m_Father: {fileID: 4595696213078190}
   m_RootOrder: 3
@@ -955,6 +955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   meta: {fileID: 0}
   mover: 0
+  banderaRedireccionamiento: 0
 --- !u!114 &114916029665269858
 MonoBehaviour:
   m_ObjectHideFlags: 1

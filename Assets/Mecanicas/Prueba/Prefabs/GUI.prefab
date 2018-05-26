@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222062344309033232}
   - component: {fileID: 114805040847556760}
   m_Layer: 5
-  m_Name: BarraManaRojo
+  m_Name: BarraManaAzul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 114821129795445384}
   - component: {fileID: 114700831859779602}
   m_Layer: 5
-  m_Name: ManaRojo
+  m_Name: ManaAzul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 222837827842173476}
   - component: {fileID: 114241190013880790}
   m_Layer: 5
-  m_Name: BarraManaAzul
+  m_Name: BarraManaRojo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ GameObject:
   - component: {fileID: 114403390125945576}
   - component: {fileID: 114309622655554376}
   m_Layer: 5
-  m_Name: ManaAzul
+  m_Name: ManaRojo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.058823526, g: 0.37687638, b: 1, a: 0.8352941}
+  m_Color: {r: 0.9764706, g: 0.078431375, b: 0.078431375, a: 0.8352941}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a805ee3191adc45b7c010a12af55b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoMaximo: 200
+  tiempoMaximo: 90
   tiempoMuerteSubita: 60
   muerteSubita: 0
   tiempo: 0
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.97794116, g: 0.0790982, b: 0.0790982, a: 0.834}
+  m_Color: {r: 0.05882353, g: 0.3764706, b: 1, a: 0.8352941}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
